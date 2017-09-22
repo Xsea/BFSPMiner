@@ -18,13 +18,12 @@ public class Main {
 
 	public static void main(final String args[]) throws IOException {
 		MakeStreams streamCreator = new MakeStreams();
-		streamCreator.setInput("C:/Users/daniel.toews/Desktop/Arbeit/MSNBC.csv");
+		streamCreator.setInput("MSNBC.csv");
 
 		List<String> stream = streamCreator.csvIntoStream();
-		long start = System.currentTimeMillis();
+		//change the method here
 		patternMining(stream);
-		long end = System.currentTimeMillis();
-		System.out.println(end - start);
+
 	}
 
 	/**
