@@ -8,3 +8,5 @@ The code contains a Main class with two different example methods. One method ex
 The second shows how to use sequential patterns for prediction. Simply choose your method in the code and run the main method to see some results.
 
 # Explaination of methods and classes
+
+BFSPMiner
